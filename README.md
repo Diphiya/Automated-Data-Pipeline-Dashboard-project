@@ -2,15 +2,10 @@
 
 A full-stack data engineering project that **automatically collects**, **cleans**, **stores**, and **visualises** real-time data from public web sources — no API keys required.
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-red?logo=streamlit)
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)
-![CI](https://github.com/YOUR_USERNAME/data-pipeline-dashboard/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## ✨ Features
+##  Features
 
 | Layer | What it does |
 |---|---|
@@ -22,17 +17,8 @@ A full-stack data engineering project that **automatically collects**, **cleans*
 
 ---
 
-## 📸 Screenshots
 
-> *(Run the app and take screenshots — paste them here)*
-
-| Stocks Panel | Crypto Panel | Weather Panel |
-|---|---|---|
-| `screenshots/stocks.png` | `screenshots/crypto.png` | `screenshots/weather.png` |
-
----
-
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 data-pipeline-dashboard/
@@ -52,7 +38,6 @@ data-pipeline-dashboard/
 
 ---
 
-## 🚀 Quick Start
 
 ### 1. Clone & set up
 
@@ -98,7 +83,7 @@ python pipeline.py --schedule --interval 15   # runs every 15 minutes
 
 ---
 
-## 📦 Data Sources
+## Data Sources
 
 | Source | API | Rate Limit | Key Required |
 |---|---|---|---|
@@ -108,7 +93,7 @@ python pipeline.py --schedule --interval 15   # runs every 15 minutes
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -118,7 +103,7 @@ All 21 unit tests cover the cleaning and transformation layer.
 
 ---
 
-## 🗃️ Database Schema
+##  Database Schema
 
 ```sql
 stocks  (ticker, price, prev_close, change, pct_chg, currency, exchange, fetched_at)
@@ -129,7 +114,7 @@ run_log (run_at, stocks_rows, crypto_rows, weather_rows, status)
 
 ---
 
-## 🛠️ Customisation
+##  Customisation
 
 **Add more stock tickers** — edit `STOCK_TICKERS` in `scraper.py`:
 ```python
@@ -148,7 +133,7 @@ python pipeline.py --schedule --interval 30   # every 30 minutes
 
 ---
 
-## 📈 Skills Demonstrated
+##  Skills Demonstrated
 
 - **Web Scraping / API Integration** — `requests`, multiple public data sources
 - **Data Engineering** — ETL pipeline, cleaning, validation, outlier handling
@@ -161,6 +146,3 @@ python pipeline.py --schedule --interval 30   # every 30 minutes
 
 ---
 
-## 📄 License
-
-MIT © 2024 — free to use, modify, and distribute.
