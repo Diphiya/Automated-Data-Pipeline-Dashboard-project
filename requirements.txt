@@ -1,0 +1,15 @@
+# Core pipeline
+requests>=2.31.0
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Dashboard & visualisation
+streamlit>=1.32.0
+plotly>=5.20.0
+
+# Optional: scheduled runs without cron
+APScheduler>=3.10.4
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.12.0
